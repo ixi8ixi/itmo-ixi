@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/expression"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.1"
+        android:textSize="20sp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:gravity="end|center_vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/currentNumber"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.2"
+        android:textSize="40sp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:gravity="end|center_vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/expression"/>
+
+    <Button
+        android:id="@+id/one"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/one_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/four"
+        app:layout_constraintEnd_toStartOf="@+id/two"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentNumber"
+        android:background="@color/purple_500"
+        android:onClick="clickButton"/>
+
+    <Button
+        android:id="@+id/two"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/two_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/five"
+        app:layout_constraintEnd_toStartOf="@+id/three"
+        app:layout_constraintStart_toEndOf="@+id/one"
+        app:layout_constraintTop_toBottomOf="@+id/currentNumber"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+    <Button
+        android:id="@+id/three"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/three_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/six"
+        app:layout_constraintEnd_toStartOf="@+id/multiply"
+        app:layout_constraintStart_toEndOf="@+id/two"
+        app:layout_constraintTop_toBottomOf="@+id/currentNumber"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/multiply_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/divide"
+        app:layout_constraintEnd_toStartOf="@+id/clear_digit"
+        app:layout_constraintStart_toEndOf="@+id/three"
+        app:layout_constraintTop_toBottomOf="@+id/currentNumber"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+    <Button
+        android:id="@+id/clear_digit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/clear_one_digit_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/clear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/multiply"
+        app:layout_constraintTop_toBottomOf="@+id/currentNumber"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+    <Button
+        android:id="@+id/four"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/four_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/seven"
+        app:layout_constraintEnd_toStartOf="@+id/five"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/one"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+    <Button
+        android:id="@+id/five"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/five_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/eight"
+        app:layout_constraintEnd_toStartOf="@+id/six"
+        app:layout_constraintStart_toEndOf="@+id/four"
+        app:layout_constraintTop_toBottomOf="@+id/two"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+    <Button
+        android:id="@+id/six"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/six_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/nine"
+        app:layout_constraintEnd_toStartOf="@+id/divide"
+        app:layout_constraintStart_toEndOf="@+id/five"
+        app:layout_constraintTop_toBottomOf="@+id/three"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/divide_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/subtract"
+        app:layout_constraintEnd_toStartOf="@+id/clear"
+        app:layout_constraintStart_toEndOf="@+id/six"
+        app:layout_constraintTop_toBottomOf="@+id/multiply"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/clear_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/exterminatus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/divide"
+        app:layout_constraintTop_toBottomOf="@+id/clear_digit"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+    <Button
+        android:id="@+id/seven"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/seven_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/point"
+        app:layout_constraintEnd_toStartOf="@+id/eight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/four"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+    <Button
+        android:id="@+id/eight"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/eight_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/zero"
+        app:layout_constraintEnd_toStartOf="@+id/nine"
+        app:layout_constraintStart_toEndOf="@+id/seven"
+        app:layout_constraintTop_toBottomOf="@+id/five"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+    <Button
+        android:id="@+id/nine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/nine_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/count"
+        app:layout_constraintEnd_toStartOf="@+id/subtract"
+        app:layout_constraintStart_toEndOf="@+id/eight"
+        app:layout_constraintTop_toBottomOf="@+id/six"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+    <Button
+        android:id="@+id/subtract"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/subtract_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/add"
+        app:layout_constraintEnd_toStartOf="@+id/exterminatus"
+        app:layout_constraintStart_toEndOf="@+id/nine"
+        app:layout_constraintTop_toBottomOf="@+id/divide"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+    <Button
+        android:id="@+id/exterminatus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/exterminatus_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/copy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/subtract"
+        app:layout_constraintTop_toBottomOf="@+id/clear"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+    <Button
+        android:id="@+id/point"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/point_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/zero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seven"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+    <Button
+        android:id="@+id/zero"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/zero_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/count"
+        app:layout_constraintStart_toEndOf="@+id/point"
+        app:layout_constraintTop_toBottomOf="@+id/eight"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+    <Button
+        android:id="@+id/count"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/count_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/add"
+        app:layout_constraintStart_toEndOf="@+id/zero"
+        app:layout_constraintTop_toBottomOf="@+id/nine"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/add_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/copy"
+        app:layout_constraintStart_toEndOf="@+id/count"
+        app:layout_constraintTop_toBottomOf="@+id/subtract"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+    <Button
+        android:id="@+id/copy"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/copy_button"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/add"
+        app:layout_constraintTop_toBottomOf="@+id/exterminatus"
+        android:background="@color/purple_500"
+        android:onClick="clickButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

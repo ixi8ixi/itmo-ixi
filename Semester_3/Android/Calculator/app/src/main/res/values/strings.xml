@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <string name="one_button">1</string>
+    <string name="two_button">2</string>
+    <string name="three_button">3</string>
+    <string name="four_button">4</string>
+    <string name="five_button">5</string>
+    <string name="six_button">6</string>
+    <string name="seven_button">7</string>
+    <string name="eight_button">8</string>
+    <string name="nine_button">9</string>
+    <string name="zero_button">0</string>
+
+    <string name="add_button">+</string>
+    <string name="subtract_button">-</string>
+    <string name="multiply_button">*</string>
+    <string name="divide_button">/</string>
+
+    <string name="point_button">.</string>
+    <string name="count_button">=</string>
+    <string name="clear_button">CE</string>
+    <string name="exterminatus_button">C</string>
+    <string name="clear_one_digit_button">\u232b</string>
+
+    <string name="copy_button">M</string>
+</resources>
