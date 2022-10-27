@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="name_placeholder">Name</string>
+    <string name="phone_placeholder">+7 (777) 777 77 77</string>
+</resources>
