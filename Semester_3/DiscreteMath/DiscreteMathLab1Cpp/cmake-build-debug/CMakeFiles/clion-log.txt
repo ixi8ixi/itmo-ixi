@@ -1,0 +1,4 @@
+C:\Users\Дыня\AppData\Local\JetBrains\CLion2022.2\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/cygdrive/d/JetBrains/apps/CLion/ch-0/222.3739.54/bin/ninja/cygwin/ninja.exe -G Ninja -S /cygdrive/d/University/itmo-ixi/Semester_3/DiscreteMath/DiscreteMathLab1Cpp -B /cygdrive/d/University/itmo-ixi/Semester_3/DiscreteMath/DiscreteMathLab1Cpp/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/d/University/itmo-ixi/Semester_3/DiscreteMath/DiscreteMathLab1Cpp/cmake-build-debug

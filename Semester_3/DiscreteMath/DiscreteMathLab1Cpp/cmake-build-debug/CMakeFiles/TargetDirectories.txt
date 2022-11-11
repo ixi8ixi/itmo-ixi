@@ -1,0 +1,3 @@
+/cygdrive/d/University/itmo-ixi/Semester_3/DiscreteMath/DiscreteMathLab1Cpp/cmake-build-debug/CMakeFiles/DiscreteMathLab1Cpp.dir
+/cygdrive/d/University/itmo-ixi/Semester_3/DiscreteMath/DiscreteMathLab1Cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/d/University/itmo-ixi/Semester_3/DiscreteMath/DiscreteMathLab1Cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
