@@ -67,6 +67,18 @@ build CMakeFiles/DiscreteMathLab1Cpp.dir/E.cpp.o: CXX_COMPILER__DiscreteMathLab1
   OBJECT_DIR = CMakeFiles/DiscreteMathLab1Cpp.dir
   OBJECT_FILE_DIR = CMakeFiles/DiscreteMathLab1Cpp.dir
 
+build CMakeFiles/DiscreteMathLab1Cpp.dir/F.cpp.o: CXX_COMPILER__DiscreteMathLab1Cpp_Debug /cygdrive/d/University/itmo-ixi/Semester_3/DiscreteMath/DiscreteMathLab1Cpp/F.cpp || cmake_object_order_depends_target_DiscreteMathLab1Cpp
+  DEP_FILE = CMakeFiles/DiscreteMathLab1Cpp.dir/F.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/DiscreteMathLab1Cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/DiscreteMathLab1Cpp.dir
+
+build CMakeFiles/DiscreteMathLab1Cpp.dir/G.cpp.o: CXX_COMPILER__DiscreteMathLab1Cpp_Debug /cygdrive/d/University/itmo-ixi/Semester_3/DiscreteMath/DiscreteMathLab1Cpp/G.cpp || cmake_object_order_depends_target_DiscreteMathLab1Cpp
+  DEP_FILE = CMakeFiles/DiscreteMathLab1Cpp.dir/G.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/DiscreteMathLab1Cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/DiscreteMathLab1Cpp.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DiscreteMathLab1Cpp
@@ -75,7 +87,7 @@ build CMakeFiles/DiscreteMathLab1Cpp.dir/E.cpp.o: CXX_COMPILER__DiscreteMathLab1
 #############################################
 # Link the executable DiscreteMathLab1Cpp.exe
 
-build DiscreteMathLab1Cpp.exe: CXX_EXECUTABLE_LINKER__DiscreteMathLab1Cpp_Debug CMakeFiles/DiscreteMathLab1Cpp.dir/main.cpp.o CMakeFiles/DiscreteMathLab1Cpp.dir/A.cpp.o CMakeFiles/DiscreteMathLab1Cpp.dir/E.cpp.o
+build DiscreteMathLab1Cpp.exe: CXX_EXECUTABLE_LINKER__DiscreteMathLab1Cpp_Debug CMakeFiles/DiscreteMathLab1Cpp.dir/main.cpp.o CMakeFiles/DiscreteMathLab1Cpp.dir/A.cpp.o CMakeFiles/DiscreteMathLab1Cpp.dir/E.cpp.o CMakeFiles/DiscreteMathLab1Cpp.dir/F.cpp.o CMakeFiles/DiscreteMathLab1Cpp.dir/G.cpp.o
   FLAGS = -g
   LINK_FLAGS = -Wl,--enable-auto-import
   OBJECT_DIR = CMakeFiles/DiscreteMathLab1Cpp.dir
