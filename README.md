@@ -8,12 +8,12 @@
 * [2d-tree](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_2/CPP/2d-tree)
 * [inverted-index](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_2/CPP/inverted-index)
 
-### Парадигмы программирования:
+### Java Парадигмы программирования:
 Смотреть -> [здесь](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_2/Paradigms) <- (там же и все условия).
 Нет пролога - я его потерял(((((((((((
 
 ## Первый семестр
-### Введение в программирование:
+### Java Введение в программирование:
 Не очень помню что там было, поэтому [читай сам)](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_1/Prog-Intro "Все решения prog-intro")
 
 Пара хайлайтов:
