@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Diniagram</string>
+    <string name="message_hint">Message</string>
+    <string name="send_button">-\></string>
+    <string name="refresh_button">R</string>
+    <string name="image">image</string>
+    <string name="picture">P</string>
+
+    <string name="send_error">Ошибка отправки</string>
+
+    <string name="connection_failed">Не удалось подключиться</string>
+    <string name="server_error_code">Ошибка на стороне сервера</string>
+    <string name="client_error_not_found">Ресурс не найден</string>
+    <string name="client_error_conflict">Конфликтное обращение к ресурсу</string>
+    <string name="client_error_payload_too_large">Слишком большой запрос</string>
+    <string name="client_error_strange">Случилось что-то странное</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="image_transition" translatable="false">image_transition</string>
+</resources>
