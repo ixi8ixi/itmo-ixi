@@ -9,8 +9,11 @@
 * [inverted-index](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_2/CPP/inverted-index) - реализация структуры данных для быстрого поиска по словам и фразам среди большого объёма данных
 
 ### Java Парадигмы программирования:
-Смотреть -> [здесь](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_2/Paradigms) <- (там же и все условия).
+Смотреть -> [здесь](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_2/Paradigms) <-.
 Нет пролога - я его потерял(((((((((((
+
+Пара хайлайтов:
+* Улучшенный разбор математических [выражений](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_2/Paradigms/java-solutions)
 
 ## Первый семестр
 ### Java Введение в программирование:
