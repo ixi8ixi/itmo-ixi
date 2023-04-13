@@ -3,10 +3,10 @@
 
 ## Второй семестр
 ### C++:
-Большие домашки:
-* [seam-carving](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_2/CPP/seam-carving)
-* [2d-tree](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_2/CPP/2d-tree)
-* [inverted-index](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_2/CPP/inverted-index)
+Большие домашки (полные условия внутри):
+* [seam-carving](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_2/CPP/seam-carving) - реализация алгоритма уменьшения размера изображения, удалением наименее значимых его частей
+* [2d-tree](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_2/CPP/2d-tree) - реализация kd-tree в двумерном случае
+* [inverted-index](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_2/CPP/inverted-index) - реализация структуры данных для быстрого поиска по словам и фразам среди большого объёма данных
 
 ### Java Парадигмы программирования:
 Смотреть -> [здесь](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_2/Paradigms) <- (там же и все условия).
