@@ -1,0 +1,2 @@
+Main-Class: info.kgeorgiy.ja.belotserkovchenko.implementor.Implementor
+Class-Path: ..\..\java-advanced-2023\artifacts\info.kgeorgiy.java.advanced.implementor.jar
