@@ -1,5 +1,5 @@
 # itmo-ixi
-Архив моих домашних заданий [КТ ∘ ИТМО ∘ y2021]
+Архив моих Учебных проектов [КТ ∘ ИТМО ∘ y2021]
 
 ## Второй семестр
 ### C++:
@@ -25,7 +25,16 @@
 ## Третий семестр
 ### Android:
 * [Калькулятор](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_3/Android/Calculator "Калькулятор")
+* Прототип Android [мессенджера](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_3/Android/Messenger)
 
 ### OsLite:
 * [Первая](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_3/OsLite/Lab1)
 * [Вторая](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_3/OsLite/Lab2)
+* [Тертья](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_3/OsLite/Lab3)
+* [Четвёртая](https://github.com/ixi8ixi/itmo-ixi/tree/main/Semester_3/OsLite/Lab4)
+
+## Четвёртый семестр
+### Технологии Java
+Решения со всеми условиями внутри [здесь]()
+Пара хайлайтов:
+* 
