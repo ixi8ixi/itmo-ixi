@@ -43,3 +43,4 @@
 Пара хайлайтов:
 * [Генератор реализаций классов и интерфейсов](https://github.com/ixi8ixi/itmo-ixi/blob/main/Semester_4/JavaCourse/java-solutions/info/kgeorgiy/ja/belotserkovchenko/implementor/Implementor.java) с поддержкой упаковки реализации в `-jar` файл
 * Обход и подсчёт [хеш-сумм файлов](https://github.com/ixi8ixi/itmo-ixi/blob/main/Semester_4/JavaCourse/java-solutions/info/kgeorgiy/ja/belotserkovchenko/walk/RecursiveWalk.java)
+* [WebCrawler](https://github.com/ixi8ixi/itmo-ixi/blob/main/Semester_4/JavaCourse/java-solutions/info/kgeorgiy/ja/belotserkovchenko/crawler/WebCrawler.java)
